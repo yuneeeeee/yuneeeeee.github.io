@@ -13,7 +13,7 @@ layout: default
 			<div class="title">
 				{% if edu.title %}<h4>{{ edu.title }}</h4>{% endif %} 
 				{% if edu.position %}<p>{{edu.position}}</p>{% endif %} 
-				{% if edu.description %}<p>{{edu.description}}</p>{% endif %} 
+				{% if edu.descriptions %}<p>{{edu.descriptions}}</p>{% endif %} 
 				{% if edu.bullets %}
 				<ul>{% for item in edu.bullets %}
 					<li>
@@ -48,8 +48,8 @@ layout: default
 			</div>
 			<div class="title">
 				{% if work.title %}<h4>{{ work.title }}</h4>{% endif %} 
-				{% if work.position %}<p>{{work.position}}</p>{% endif %} 
-				{% if work.description %}<p>{{work.description}}</p>{% endif %} 
+				{% if work.position %}<i>{{work.position}}</i>{% endif %} 
+				{% if work.descriptions %}<p>{{work.descriptions}}</p>{% endif %} 
 				{% if work.bullets %}
 				<ul class="bullets">{% for item in work.bullets %}
 					<li class="bullets">
@@ -74,7 +74,7 @@ layout: default
 			<div class="title">
 				{% if work.title %}<h4>{{ work.title }}</h4>{% endif %} 
 				{% if work.position %}<p>{{work.position}}</p>{% endif %} 
-				{% if work.description %}<p>{{work.description}}</p>{% endif %} 
+				{% if work.descriptions %}<i>{{work.descriptions}}</i>{% endif %} 
 				{% if work.bullets %}
 				<ul class="bullets">{% for item in work.bullets %}
 					<li class="bullets">

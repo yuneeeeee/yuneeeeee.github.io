@@ -1,4 +1,12 @@
-# The Plain
+# About the site
+## Collaborator
+- [**jappoker**](https://www.jappoker.com)
+
+## How to update information
+- change the `yaml` file in `_data/` folder.
+
+# About the theme
+## The Plain
 
 > The Plain is a minimalist Jekyll theme, ideally designed for your personal blog use. This Jekyll theme provides a minimum distraction so you can focus on writing that matters to you and your readers. This theme is originally inspired from [Leonard Lamprecht's _leo_ theme](https://github.com/leo/leo.github.io).
 
@@ -8,9 +16,9 @@
 
 ![SCREENSHOT](https://i.imgur.com/FITKN1H.png)
 
-## Usage
+### Usage
 
-### On an unlimited Jekyll host
+#### On an unlimited Jekyll host
 
 > **NOTE** This does NOT work on GitHub, see the next section.
 
@@ -26,7 +34,7 @@ Add this to your sites *_config.yml* file:
 
 Then copy some of the settings from this repo's *_config.yml* file to your own, and modify them.
 
-### On GitHub
+#### On GitHub
 
 GitHub - for your user account pages or repository gh-pages - only supports a limited set of themes.
 
@@ -49,12 +57,12 @@ This will grab the theme directly from the GitHub repo.
 
 Now copy some of the settings from this repo's *_config.yml* file to your own, and modify them.
 
-## Authors
+### Authors
 
 - [**Heiswayi Nrird**](https://heiswayi.nrird.com)
 
 See also the list of [contributors](https://github.com/heiswayi/the-plain/graphs/contributors) who participated in this project.
 
-## License
+### License
 
 [MIT](LICENSE)
