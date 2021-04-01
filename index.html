@@ -2,7 +2,8 @@
 layout: default
 ---
 <section>
-	<hr>
+<article>
+
 	<h3 class="code">EDUCATION</h3>
 	{% for edu in site.data.education %}
 	<ul>
@@ -26,7 +27,7 @@ layout: default
 		</li>
 	</ul>
 	{% endfor %}
-	<hr>
+	<div class="divider"></div>
 	<h3 class="code">SKILLS</h3>
 	{% for item in site.data.skills %}
 	<ul class="bullets"> 
@@ -38,7 +39,7 @@ layout: default
 	</ul>	
 	{% endfor %}
 
-	<hr>
+	<div class="divider"></div>
 	<h3 class="code">WORK EXPERIENCE</h3>
 	{% for work in site.data.work %}
 	<ul>
@@ -63,7 +64,7 @@ layout: default
 	</ul>
 	{% endfor %}
 
-	<hr>
+	<div class="divider"></div>
 	<h3 class="code">ACADEMIC PROJECTS</h3>
 	{% for work in site.data.projects %}
 	<ul>
@@ -87,5 +88,5 @@ layout: default
 		</li>
 	</ul>
 	{% endfor %}
-
+</article>
 </section>
