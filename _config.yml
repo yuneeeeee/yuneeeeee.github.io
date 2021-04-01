@@ -1,0 +1,53 @@
+# Site Info
+title:              "Yining Wang"
+description:        "Graduate student in BU"
+author_name:        "Yining Wang" # change this to your name
+# logo_url:           https://avatars.githubusercontent.com/u/55848996?v=4 # Get it from GitHub API: https://api.github.com/users/<username>
+logo_url:           img/photo.jpeg
+# Site Settings
+url:                https://yuneeeeee.github.io # main url
+baseurl:            ""
+permalink:          /:title # Post permalink
+timezone:           America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+mathjax:            true  # enables support for mathjax - set to 'false' to disable
+
+# Site Build
+highlighter:        rouge
+markdown:           kramdown
+kramdown:
+    input:          GFM
+sass:
+    style:          :compressed
+
+# Other Params
+include:            [ "robots.txt" ]
+exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
+plugins:
+  - jekyll-sitemap
+
+# Social links
+github_username:    yuneeeeee
+linkedin_username:  yining-wang-9249a3193
+email_title:        
+orcid_username:     
+youtube_username:   
+twitter_username:   
+facebook_username:  
+
+
+defaults:
+  -
+    scope:
+      path:         ""
+    values:
+      layout:       "null"
+  -
+    scope:
+      type:         "pages"
+    values:
+      layout:       "page"
+  -
+    scope:
+      type:         "posts"
+    values:
+      layout:       "post"

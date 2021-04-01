@@ -1,0 +1,38 @@
+- category: Programming languages
+  list:
+  - C
+  - C++
+  - Python
+  - R
+  - Shell
+  - SQL
+  - Assembly
+
+- category: Databases
+  list:
+  - MySQL
+  - Oracle
+  - MongoDB
+
+- category: Data Visualization
+  list:
+  - Tableau
+  - R Studio 
+  - Flourish
+  
+- category: Tools
+  list: 
+  - TensorFlow
+  - PyTorch
+  - MATLAB
+  - GitHub
+  - Jupyter Notebook
+  - Google Earth Engine
+  - QT Creator
+  - Firebase
+
+- category: Web Development
+  list:
+  - Flask
+  - Django
+  - HTML5

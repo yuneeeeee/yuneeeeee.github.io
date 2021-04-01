@@ -1,0 +1,26 @@
+- title: Broad Institute
+  start_date: 2020-01-01
+  end_date: 2020-08-31
+  position: "Intern, Software Development"
+  descriptions:
+  bullets:
+    - Applied Jupyter Notebook and shell script to realize automatic quality control of large datasets collected from experiments and batch processing of daily data analysis
+    - Modified the acticircadian codes with MATLAB to meet certain analysis needs and data formats
+    - Designed and developed a website with python flask, google authentication and firebase, which can be run on cloud sever with certain functions including register, login, data analysis, and downloading
+
+- title: Ernst & Young, LLP
+  start_date: 2017-11-01
+  end_date: 2018-03-31
+  position: "Intern, Performance Improvement Department, Advisory"
+  descriptions:
+  bullets:
+    - Assisted in decision making by analyzing data with python and performing visualization with Python and R AstraZeneca August 2017–November 2017
+
+- title: AstraZeneca
+  start_date: 2017-08-01
+  end_date: 2017-11-30
+  position: "Intern, IT Department"
+  descriptions:
+  bullets:
+    - Managed the UI and function design of new platform “PromoMats” aiming to serve as an internal database
+    - Produced weekly report on operation performance through monitoring web traffic and user access

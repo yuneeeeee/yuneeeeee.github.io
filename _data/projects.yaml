@@ -1,0 +1,26 @@
+- title: Master of Science Thesis
+  start_date: 
+  end_date: 2021-04-01
+  descriptions: Recurrence plot and CNN based method for human activity recognition
+  bullets:
+    - Modified data collected by accelerator and gyroscope with NumPy and realized automatic processing
+    - Transferred the time series into recurrence plots in the size of 128*128 and classified the plots by different body parts and two sets of activities, running and walking, climbing up and climbing down.
+    - Utilized LeNet5 to conduct deep learning. Recorded accuracy, precision, recall, f score and ROC curve
+    - Applied visualization to compare the performance and chose the best method to realized recognition
+
+- title: Master of Science Lab Project
+  start_date:  
+  end_date: 2020-12-01
+  descriptions: Combining satellite imagery and deep learning to predict civil health conditions
+  bullets:
+    - Employed Google Earth Engine to automatically download satellite images and divided them into 2500+ segments by applying segmentation methods with python and MATLAB
+    - Utilized CNN algorithm to find correlations between satellite imagery and health condition
+
+- title: Undergraduate Thesis
+  start_date:  
+  end_date: 2018-06-01
+  descriptions: Emotional Analysis Basing on EEG Signal
+  bullets:
+    - Designed and operated experiments of collecting EEG signals stimulated by 7 different emotional materials which can be classified into negative and positive ones and processed data with feature extraction
+    - Applied CNN and SVM to conduct deep learning with TensorFlow and compared the algorithms
+    - Gained progress in accuracy through consultation of 60+ papers and immersion of 540+ hours in laboratory

@@ -1,0 +1,91 @@
+---
+layout: default
+---
+<section>
+	<hr>
+	<h3 class="code">EDUCATION</h3>
+	{% for edu in site.data.education %}
+	<ul>
+		<li>
+			<div class="post-date code">
+				{% if edu.start_date %}<span>{{ edu.start_date | date: "%b %Y" }}</span>{% endif %}{% if edu.end_date and edu.start_date %} - {% endif %}{% if edu.end_date %} <span>{{ edu.end_date | date: "%b %Y" }}</span>{% endif %}
+			</div>
+			<div class="title">
+				{% if edu.title %}<h4>{{ edu.title }}</h4>{% endif %} 
+				{% if edu.position %}<p>{{edu.position}}</p>{% endif %} 
+				{% if edu.description %}<p>{{edu.description}}</p>{% endif %} 
+				{% if edu.bullets %}
+				<ul>{% for item in edu.bullets %}
+					<li>
+						{{item}}
+					</li>
+					{% endfor %}
+				</ul>
+				{% endif %} 
+			</div>
+		</li>
+	</ul>
+	{% endfor %}
+	<hr>
+	<h3 class="code">SKILLS</h3>
+	{% for item in site.data.skills %}
+	<ul class="bullets"> 
+		<li>{{item.category}}
+		{% for skill in item.list %}
+		<span class="skill">{{skill}}</span>
+		{% endfor %}
+		</li>
+	</ul>	
+	{% endfor %}
+
+	<hr>
+	<h3 class="code">WORK EXPERIENCE</h3>
+	{% for work in site.data.work %}
+	<ul>
+		<li>
+			<div class="post-date code">
+				{% if work.start_date %}<span>{{ work.start_date | date: "%b %Y" }}</span>{% endif %}{% if work.end_date and work.start_date %} - {% endif %}{% if work.end_date %} <span>{{ work.end_date | date: "%b %Y" }}</span>{% endif %}
+			</div>
+			<div class="title">
+				{% if work.title %}<h4>{{ work.title }}</h4>{% endif %} 
+				{% if work.position %}<p>{{work.position}}</p>{% endif %} 
+				{% if work.description %}<p>{{work.description}}</p>{% endif %} 
+				{% if work.bullets %}
+				<ul class="bullets">{% for item in work.bullets %}
+					<li class="bullets">
+						{{item}}
+					</li>
+					{% endfor %}
+				</ul>
+				{% endif %} 
+			</div>
+		</li>
+	</ul>
+	{% endfor %}
+
+	<hr>
+	<h3 class="code">ACADEMIC PROJECTS</h3>
+	{% for work in site.data.projects %}
+	<ul>
+		<li>
+			<div class="post-date code">
+				{% if work.start_date %}<span>{{ work.start_date | date: "%b %Y" }}</span>{% endif %}{% if work.end_date and work.start_date %} - {% endif %}{% if work.end_date %} <span>{{ work.end_date | date: "%b %Y" }}</span>{% endif %}
+			</div>
+			<div class="title">
+				{% if work.title %}<h4>{{ work.title }}</h4>{% endif %} 
+				{% if work.position %}<p>{{work.position}}</p>{% endif %} 
+				{% if work.description %}<p>{{work.description}}</p>{% endif %} 
+				{% if work.bullets %}
+				<ul class="bullets">{% for item in work.bullets %}
+					<li class="bullets">
+						{{item}}
+					</li>
+					{% endfor %}
+				</ul>
+				{% endif %} 
+			</div>
+		</li>
+	</ul>
+	{% endfor %}
+
+</section>
