@@ -11,6 +11,16 @@ permalink:          /:title # Post permalink
 timezone:           America/New_York # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 mathjax:            true  # enables support for mathjax - set to 'false' to disable
 
+# Social links
+github_username:    yuneeeeee
+linkedin_username:  yining-wang-9249a3193
+email:        freya.yini@gmail.com
+email_title: Contact me via
+orcid_username:     
+youtube_username:   
+twitter_username:   
+facebook_username:  
+
 # Site Build
 highlighter:        rouge
 markdown:           kramdown
@@ -24,16 +34,6 @@ include:            [ "robots.txt" ]
 exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile", "script" ]
 plugins:
   - jekyll-sitemap
-
-# Social links
-github_username:    yuneeeeee
-linkedin_username:  yining-wang-9249a3193
-email:        freya.yini@gmail.com
-email_title: Contact me via
-orcid_username:     
-youtube_username:   
-twitter_username:   
-facebook_username:  
 
 
 defaults:

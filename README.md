@@ -5,6 +5,21 @@
 ## How to update information
 - change the `yaml` file in `_data/` folder.
 
+## How to update social media links:
+- change the following files in the `_config.yml` file.
+
+```yaml
+# Social links
+github_username:    
+linkedin_username:  
+email: 
+email_title:
+orcid_username:     
+youtube_username:   
+twitter_username:   
+facebook_username:  
+```
+
 # About the theme
 ## The Plain
 
